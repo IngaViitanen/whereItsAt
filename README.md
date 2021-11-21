@@ -5,8 +5,7 @@ As staff you can login to verify the ticketnumber you get after purchasing a tic
 
 For login I used JWT tokens and hashed passwords with bcrypt
 
+
 Staff login:
-
 Username: admin
-
 Password: admin
