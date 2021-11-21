@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Sansita&display=swap');
+
+body{
+    background-color: #231F42;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Sansita', sans-serif;
+}
+
+#ticketHTML{
+    background-image: linear-gradient(#d15392, #231F42);
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+}
+
+#staff-bg{
+    background-color: #F39440;
+}
+
+#staff-logo{
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+#detailsTitle{
+    text-align: center;
+    color: #D0D0D0;
+    font-family: 'Fira Sans', 'sans-serif';
+}
+
+h1{
+    font-family: 'Sansita', sans-serif;
+    color: #F56B9A; 
+    padding: 1rem 0 4rem 0;
+    font-style: italic;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#event{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 80px 80px 80px 80px;
+    column-gap: 15px;
+    row-gap: 5px;
+}
+
+.event{
+    display: grid;
+    grid-template-columns: 66px 140px 60px;
+    grid-template-rows: 66px;
+    column-gap: 5px 0;
+    row-gap: 4px;
+}
+
+.event:hover{
+    border: solid 1px #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.date{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.date2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+    margin-left: 0.5rem;
+}
+
+.artist{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-shadow: 1px 1px #F56B9A;
+}
+
+.place{
+    margin: 0;
+    padding: 0;
+    color: rgba(255, 255, 255, 0.801);
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: small;
+}
+
+.time{
+    margin: 0.5rem 0 0.2rem 0;
+    padding: 0;
+    color:#D0D0D0;
+    font-size: small;
+}
+
+.price{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    color:#37AEAB;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+.staff{
+    color: #fff;
+}
+
+#detailsTitle{
+    margin: 5rem 0 2rem 0;
+}
+
+#artist{
+    font-family: 'Sansita', sans-serif;
+    color: #F56B9A; 
+    padding: 0;
+    margin: 0;
+}
+
+#dateNtime{
+    color: #37AEAB;
+    padding: 0.3rem;
+}
+
+#place{
+    font-family: 'Fira Sans', sans-serif;
+    color: #D0D0D0;
+    font-size: 0.8rem;
+    margin-bottom: 5rem;
+}
+
+#price{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 1px 1px #F56B9A;
+    margin-bottom: 5rem;
+}
+
+#orderBtn{
+    background-color: #37AEAB;
+    padding: 1rem 6rem;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Fira Sans', 'sans-serif';
+    font-size: 1rem;
+}
+
+#orderBtn:hover{
+    cursor: pointer;
+}
+
+#orderBtn:active{
+    background: greenyellow;
+}
+
+#ticketsLeft{
+    color: #fff;
+    font-size: 1rem;
+    padding: 3rem;
+}
+
+.dateTimeWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#ticketBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    max-height: 500px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.whoTicket{
+    background-color: white;
+    width: 300px;
+    /* padding: 0.5rem 0 1rem 0; */
+}
+
+#artistTicket, #placeTicket, #dateTicket, #startTicket, #slutTicket{
+    padding-left: 1rem;
+}
+
+#artistTicket{
+    margin:0;
+}
+
+.whereTicket{
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+    border-top: 1px dashed grey;
+    border-bottom: 1px dashed grey;
+}
+
+#placeTicket{
+    margin: 1rem 0 2.5rem 0;
+    color: #444;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.wftWrapper{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 60px;
+    column-gap: 2px;
+    background: rgb(206, 206, 206);
+    border-bottom: 1px dashed grey;
+}
+
+#dateTicket, #startTicket, #slutTicket{
+    color: #444;
+    margin-top: 0.4rem;
+}
+
+.barcode-ticketId{
+    background: rgb(206, 206, 206);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#barcode{
+    padding: 2rem 0 1.5rem 0;
+    width: 150px;
+}
+
+#ticketNumber{
+    color: rgb(102, 102, 102);
+    padding-bottom: 2rem;
+    font-size: 0.8rem;
+    font-family: 'sans-serif', 'Fira Sans';
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.whereWhatWho{
+    color: grey;
+    font-family: 'sans-serif', 'Fira Sans';
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+#staff-logo{
+    margin-top: 3rem;
+    height: 80px;
+}
+
+#staff-h3{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin: 0.4rem;
+}
+
+#staff-p{
+    font-size: 1.5rem;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.login-input{
+    background: transparent;
+    padding: 0.8rem;
+    text-align: center;
+    border: 2px solid #231F42;
+    border-radius: 3px;
+    margin: 1rem;
+}
+
+::placeholder{
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+
+#loginBtn{
+    background: #231F42;
+    padding: 0.8rem;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    margin: 1.2rem;
+}
+
+#loginBtn:hover{
+    cursor: pointer;
+}
+
+#loginBtn:active{
+    background:#312c57 ;
+}
+
+.verify-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.verifyinputwrapper{
+    margin-top: 5rem;
+}
+
+#ticketId{
+    background: transparent;
+    padding: 1.5rem;
+    border: 2px solid #231F42;
+    border-radius: 3px 3px 0 0;
+}
+
+#ticketId::placeholder{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+}
+
+#verifyBtn{
+    background: #231F42;
+    padding: 0.8rem;
+    border: none;
+    color: #fff;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+#verifyBtn:hover{
+    cursor: pointer;
+}

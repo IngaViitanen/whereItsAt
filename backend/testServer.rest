@@ -1,0 +1,37 @@
+GET http://localhost:8000/api/event
+
+###
+
+GET http://localhost:8000/api/event/1
+
+###
+
+POST http://localhost:8000/api/ticket
+Content-Type: application/json
+
+{
+    "id": 2
+}
+
+###
+
+GET http://localhost:8000/api/ticket/ABC0.3621289255519766
+
+###
+
+PUT http://localhost:8000/api/ticket/ABC0.6264901038981419
+
+###
+
+POST http://localhost:8000/api/auth
+Content-Type: application/json
+
+{
+    "username": "admin",
+    "password": "admin"
+}
+
+###
+
+GET http://localhost:8000/api/auth/loggedIn
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjM3MzI1NzExLCJleHAiOjE2MzczMjYzMTF9.g0phvnow6Ji7ToWtvv7DBVRgwbmXjl1u80vr0LLl-Dg

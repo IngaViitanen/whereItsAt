@@ -1,0 +1,102 @@
+{
+  "event": [
+    {
+      "datum": "21",
+      "datum2": "Mars",
+      "artist": "Lasse-Stefans",
+      "plats": "Kjell Härnqvistsalen",
+      "start": "19:00",
+      "slut": "21:00",
+      "pris": "350 sek",
+      "antal": 1,
+      "id": 1
+    },
+    {
+      "datum": "29",
+      "datum2": "Mars",
+      "artist": "Pelle Trubadur",
+      "plats": "Pubelipuben",
+      "start": "22:00",
+      "slut": "00:00",
+      "pris": "110 sek",
+      "antal": 4,
+      "id": 2
+    },
+    {
+      "datum": "10",
+      "datum2": "April",
+      "artist": "Kajsa Kör",
+      "plats": "Götaplatsen",
+      "start": "15:00",
+      "slut": "16:00",
+      "pris": "99 sek",
+      "antal": 4,
+      "id": 3
+    },
+    {
+      "datum": "17",
+      "datum2": "April",
+      "artist": "Klubb Untz",
+      "plats": "Din favoritkällare",
+      "start": "22:00",
+      "slut": "du tröttnar",
+      "pris": "150 sek",
+      "antal": 4,
+      "id": 4
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "ticketId": "ABC0.6902104493350467",
+      "verified": true
+    },
+    {
+      "id": 3,
+      "ticketId": "ABC0.591699702304382",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "ticketId": "ABC0.9994121128659472",
+      "verified": true
+    },
+    {
+      "id": 4,
+      "ticketId": "ABC0.940204894710817",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "ticketId": "ABC0.05930614484267904",
+      "verified": false
+    },
+    {
+      "id": 1,
+      "ticketId": "ABC0.720204126398793",
+      "verified": false
+    },
+    {
+      "id": 2,
+      "ticketId": "ABC0.9523759211162774",
+      "verified": false
+    },
+    {
+      "id": 4,
+      "ticketId": "ABC0.4371240141185222",
+      "verified": true
+    },
+    {
+      "id": 1,
+      "ticketId": "ABC0.26095997185956166",
+      "verified": true
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    }
+  ]
+}
